@@ -25,7 +25,7 @@ Actions:
       Type: EC2
     Configuration:
       Wait: true
-      AppId: d1rosfyxusauaa
+      AppId: d44qzz2q3m74y
       CreateBranch: true
       AmplifyBranchName: ${WorkflowSource.BranchName}
       Path: .
