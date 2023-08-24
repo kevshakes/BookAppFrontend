@@ -29,6 +29,7 @@ Actions:
     Configuration:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
+        - Run: npm install
         - Run: npm run build
     Compute:
       Type: EC2
