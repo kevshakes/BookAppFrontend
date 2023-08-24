@@ -61,6 +61,6 @@ Actions:
       AppId: doeqjiu6ikeyk
       CreateBranch: true
       AmplifyBranchName: ${WorkflowSource.BranchName}
-      Path: build/*
+      Path: build/
     DependsOn:
       - Build_ae
