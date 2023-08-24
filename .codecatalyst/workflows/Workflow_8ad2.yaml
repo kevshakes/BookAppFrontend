@@ -21,10 +21,6 @@ Actions:
         Enabled: true
         # Use as prefix for the report files
         ReportNamePrefix: rpt
-      Artifacts:
-        - Name: BuildDir
-          Files:
-            - build
     # Defines the action's properties.
     Configuration:
       # Required - Steps are sequential instructions that run shell commands
