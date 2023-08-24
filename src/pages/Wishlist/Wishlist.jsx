@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbarhome from '../../components/Navbar/Navbarhome';
 import bookImg from '../../images/book.jpeg';
-import './Register.css';
+import './Wishlist.css';
 
 const Register = () => {
 	const [firstname, setFirstname] = useState('');
