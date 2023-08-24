@@ -9,6 +9,7 @@ import About from './pages/About/About';
 import Home from './pages/Home/Home';
 import HomePage from './pages/HomePage/HomePage';
 import Library from './pages/Library/Library';
+import Wishlist from './pages/Wishlist/Wishlist';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 
@@ -25,6 +26,7 @@ root.render(
 				<Route path='register' element={<Register />} />
 				<Route path='login' element={<Login />} />
 				<Route path='library' element={<Library />} />
+				<Route path='wishlist' element={<Wishlist />} />
 				<Route path='book/:id' element={<BookDetails />} />
 			</Routes>
 		</BrowserRouter>
