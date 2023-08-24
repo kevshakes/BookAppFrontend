@@ -29,4 +29,4 @@ Actions:
       AppId: doeqjiu6ikeyk
       CreateBranch: true
       AmplifyBranchName: ${WorkflowSource.BranchName}
-      Path: .
+      Path: build
