@@ -46,8 +46,6 @@ Actions:
           Name: TeamShakes
       Name: BookAppFrontEndEnvironment
     Inputs:
-      Sources:
-        - WorkflowSource
       Artifacts:
         - newOutput
     Compute:
