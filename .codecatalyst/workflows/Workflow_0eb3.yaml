@@ -41,6 +41,10 @@ Actions:
   DeployToAWSAmplifyHosting_70:
     # Identifies the action. Do not modify this value.
     Identifier: codecatalyst-labs/deploy-to-amplify-hosting@v1.0.1
+    Outputs:
+      AutoDiscoverReports:
+        Enabled: true
+        ReportNamePrefix: rpt
     # Required; You can use an environment, AWS account connection, and role to access AWS resources.
     Environment:
       Connections:
