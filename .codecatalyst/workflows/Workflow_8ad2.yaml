@@ -18,9 +18,11 @@ Actions:
     Outputs:
       # Optional; Automatically discover reports for popular test frameworks
       AutoDiscoverReports:
-        Enabled: true
-        # Use as prefix for the report files
-        ReportNamePrefix: rpt
+        Enabled: false
+      Artifacts:
+        - Name: newOutput
+          Files:
+            - build/*
     # Defines the action's properties.
     Configuration:
       # Required - Steps are sequential instructions that run shell commands
@@ -43,11 +45,11 @@ Actions:
         - Role: CodeCatalystPreviewDevelopmentAdministrator-y82b5j
           Name: TeamShakes
       Name: BookAppFrontEndEnvironment
-    # Specifies the source and/or artifacts to pass to the action as input.
     Inputs:
-      # Optional
       Sources:
-        - WorkflowSource # This specifies that the action requires this Workflow as a source
+        - WorkflowSource
+      Artifacts:
+        - newOutput
     Compute:
       Type: EC2
     Configuration:
